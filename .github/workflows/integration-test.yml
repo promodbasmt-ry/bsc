@@ -21,6 +21,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Truffle test
+    - name: Truffle tests
       run: |
         make truffle-test
